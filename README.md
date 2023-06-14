@@ -6,14 +6,14 @@ function printPartialRow(n) {
     str = str + " "
   }
   str= str + "*";
-  console.log(str);
+  alert(str);
   }
 function printSingleFullRow(n){
 let str = "";
 for(let i=0;i<n;i++){
    str = str + "*";
  }
-console.log(str);
+alert(str);
 }
 function printWholething(n){
   printSingleFullRow(n);
