@@ -1,4 +1,4 @@
-# Hollow-Square-Pattern.
+# Hollow Square Pattern 
 function printPartialRow(n) {
   var str= "";
   str=str + "*";
