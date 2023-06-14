@@ -15,8 +15,12 @@ for(var i=0;i<n;i++){
  }
 console.log(str);
 }
-printSingleFullRow(10)
-printPartialRow(10)
-printPartialRow(10)
-printPartialRow(10)
-printSingleFullRow(10)
+function printWholething(n){
+  printSingleFullRow(n);
+  for ( var i=0;i<n-2;i++){
+    printPartialRow(n)
+  }
+  printSingleFullRow(n);
+}
+printWholething(8)
+
